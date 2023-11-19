@@ -1,0 +1,571 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.tentang {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.tentang .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 3300px;
+  position: relative;
+}
+
+.tentang .footer {
+  position: absolute;
+  width: 1440px;
+  height: 252px;
+  top: 3000px;
+  left: 0;
+}
+
+.tentang .footer-2 {
+  position: absolute;
+  width: 1227px;
+  height: 182px;
+  top: 70px;
+  left: 113px;
+}
+
+.tentang .menu {
+  width: 297px;
+  height: 182px;
+  left: 304px;
+  position: absolute;
+  top: 0;
+}
+
+.tentang .text-wrapper {
+  position: absolute;
+  width: 287px;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  color: #272042;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tentang .text-wrapper-2 {
+  position: absolute;
+  width: 287px;
+  top: 48px;
+  left: 0;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tentang .text-wrapper-3 {
+  position: absolute;
+  width: 287px;
+  top: 122px;
+  left: 0;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tentang .text-wrapper-4 {
+  position: absolute;
+  width: 287px;
+  top: 85px;
+  left: 0;
+  font-weight: 400;
+  color: #272042;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.tentang .text-wrapper-5 {
+  position: absolute;
+  width: 287px;
+  top: 159px;
+  left: 0;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tentang .logo {
+  width: 133px;
+  height: 145px;
+  top: 14px;
+  position: absolute;
+  left: 0;
+}
+
+.tentang .text-wrapper-6 {
+  position: absolute;
+  width: 129px;
+  top: 40px;
+  left: 0;
+  font-weight: 500;
+  color: #272042;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tentang .text-wrapper-7 {
+  top: 0;
+  position: absolute;
+  left: 0;
+  font-weight: 500;
+  color: #272042;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tentang .menu-2 {
+  width: 297px;
+  height: 182px;
+  left: 622px;
+  position: absolute;
+  top: 0;
+}
+
+.tentang .text-wrapper-8 {
+  position: absolute;
+  width: 287px;
+  top: 85px;
+  left: 0;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tentang .menu-3 {
+  width: 295px;
+  height: 145px;
+  left: 940px;
+  position: absolute;
+  top: 0;
+}
+
+.tentang .line {
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  top: -1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.tentang .slogan {
+  position: absolute;
+  top: 1200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tentang .slogan-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 49px;
+  position: relative;
+  top: 100px;
+}
+
+.tentang .icon {
+  width: 168.51px;
+  position: relative;
+  height: 212px;
+}
+
+.tentang .text-wrapper-9 {
+  position: absolute;
+  width: 160px;
+  top: 178px;
+  left: 4px;
+  font-weight: 700;
+  color: #272042;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tentang .pic {
+  position: absolute;
+  width: 167px;
+  height: 155px;
+  top: 0;
+  left: 0;
+}
+
+.tentang .text-wrapper-10 {
+  width: 185px;
+  left: 0;
+  position: absolute;
+  top: 178px;
+  font-weight: 700;
+  color: #272042;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tentang .img {
+  position: absolute;
+  width: 167px;
+  height: 155px;
+  top: 0;
+  left: 9px;
+}
+
+.tentang .tentang-kami {
+  position: absolute;
+  top: 184px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tentang .tentang-kami-2 {
+  position: relative;
+  width: 1264px;
+  height: 876px;
+}
+
+.tentang .foto-makanan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: absolute;
+  top: 600px;
+}
+
+.tentang .pic-makanan {
+  position: relative;
+  width: 406.51px;
+  height: 263px;
+  border-radius: 20px;
+}
+
+.tentang .dimulai-pada-tahun {
+  position: absolute;
+  width: 1073px;
+  top: 97px;
+  left: 94px;
+  font-weight: 400;
+  color: #272042;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+.tentang .text-wrapper-11 {
+  position: absolute;
+  top: 0;
+  left: 463px;
+  font-weight: 700;
+  color: #272042;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 70px;
+  white-space: nowrap;
+}
+
+.tentang .nav-bar {
+  position: absolute;
+  width: 1240px;
+  height: 50px;
+  top: 50px;
+  left: 100px;
+}
+
+.tentang .logo-2 {
+  width: 368px;
+  height: 35px;
+  top: 7px;
+  position: absolute;
+  left: 0;
+}
+
+.tentang .text-wrapper-12 {
+  position: absolute;
+  top: 0;
+  left: 62px;
+  font-weight: 500;
+  color: #272042;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tentang .text-wrapper-13 {
+  top: 3px;
+  position: absolute;
+  left: 0;
+  font-weight: 500;
+  color: #272042;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tentang .group {
+  position: absolute;
+  width: 485px;
+  height: 27px;
+  top: 13px;
+  left: 541px;
+}
+
+.tentang .rectangle {
+  width: 53px;
+  height: 4px;
+  top: 23px;
+  left: 422px;
+  position: absolute;
+  background-color: #fbe0dc;
+  border-radius: 100px;
+}
+
+.tentang ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 72px;
+  position: absolute;
+}
+
+.tentang li {
+  float: left;
+}
+
+.tentang li a {
+  color: #8B8BA5;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tentang li a:hover:not(.active) {
+  color: #FBE0DC;
+}
+
+.tentang .active {
+  color: #272042;
+}
+
+.tentang li a:hover, li a.active {
+  color: #FBE0DC;
+}
+
+.tentang .text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-weight: 500;
+  color: #8b8ba5;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tentang .text-wrapper-15 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-weight: 700;
+  color: #272042;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tentang .btn {
+  position: absolute;
+  width: 157px;
+  height: 50px;
+  top: 0;
+  left: 1085px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.tentang .overlap-group {
+  position: relative;
+  width: 155px;
+  height: 50px;
+  background-image: url(./img/rectangle-1.svg);
+  background-size: 100% 100%;
+}
+
+.tentang .text-wrapper-16 {
+  position: absolute;
+  top: 13px;
+  left: 26px;
+  font-weight: 500;
+  color: #272042;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tentang .dibalik-LSP {
+  position: absolute;
+  width: 1225px;
+  height: 405px;
+  top: 1700px;
+  left: 89px;
+  transform: rotate(180deg);
+}
+
+.tentang .overlap {
+  position: absolute;
+  width: 424px;
+  height: 140px;
+  top: 240px;
+  left: 797px;
+}
+
+.tentang .rectangle-2 {
+  width: 212px;
+  height: 8px;
+  top: 14px;
+  left: 98px;
+  position: absolute;
+  background-color: #fbe0dc;
+  border-radius: 100px;
+}
+
+.tentang .rectangle-3 {
+  width: 77px;
+  height: 8px;
+  top: 84px;
+  left: 347px;
+  transform: rotate(-180deg);
+  position: absolute;
+  background-color: #fbe0dc;
+  border-radius: 100px;
+}
+
+.tentang .eat-what-you-cook {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-180deg);
+  font-weight: 700;
+  color: #272042;
+  font-size: 46px;
+  letter-spacing: 0;
+  line-height: 70px;
+}
+
+.tentang .when-you-eat {
+  position: absolute;
+  width: 522px;
+  top: 10px;
+  left: 698px;
+  transform: rotate(-180deg);
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 34px;
+}
+
+.tentang .video {
+  position: absolute;
+  width: 626px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  transform: rotate(-180deg);
+  background-size: 100% 100%;
+  border-radius: 20px;
+}
+
+.tentang .list-anggota {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  position: absolute;
+  top: 2200px;
+  left: 90px;
+}
+
+.tentang .anggota {
+  display: flex;
+  width: 1260px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tentang .orang {
+  position: relative;
+  width: 279px;
+  height: 334px;
+}
+
+.tentang .deskripsi {
+  position: absolute;
+  width: 190px;
+  height: 70px;
+  top: 265px;
+  left: 40px;
+}
+
+.tentang .text-wrapper-17 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  color: #272042;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tentang .gambar {
+  position: relative;
+  width: 265px;
+  height: 279px;
+}
+
+.tentang .group-2 {
+  position: absolute;
+  width: 265px;
+  height: 279px;
+  top: 1px;
+  left: 0;
+}
