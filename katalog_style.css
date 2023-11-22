@@ -1,0 +1,497 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.katalog {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.katalog .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 5300px;
+  position: relative;
+}
+
+.katalog .footer {
+  position: absolute;
+  width: 1440px;
+  height: 252px;
+  top: 5000px;
+  left: 0;
+}
+
+.katalog .footer-2 {
+  position: absolute;
+  width: 1227px;
+  height: 182px;
+  top: 70px;
+  left: 113px;
+}
+
+.katalog .menu {
+  width: 297px;
+  height: 182px;
+  left: 304px;
+  position: absolute;
+  top: 0;
+}
+
+.katalog .text-wrapper {
+  position: absolute;
+  width: 287px;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  color: #272042;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.katalog .text-wrapper-2 {
+  position: absolute;
+  width: 287px;
+  top: 48px;
+  left: 0;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.katalog .text-wrapper-3 {
+  position: absolute;
+  width: 287px;
+  top: 122px;
+  left: 0;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.katalog .text-wrapper-4 {
+  position: absolute;
+  width: 287px;
+  top: 85px;
+  left: 0;
+  font-weight: 400;
+  color: #272042;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.katalog .text-wrapper-5 {
+  position: absolute;
+  width: 287px;
+  top: 159px;
+  left: 0;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.katalog .logo {
+  width: 133px;
+  height: 145px;
+  top: 14px;
+  position: absolute;
+  left: 0;
+}
+
+.katalog .text-wrapper-6 {
+  position: absolute;
+  width: 129px;
+  top: 40px;
+  left: 0;
+  font-weight: 500;
+  color: #272042;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.katalog .text-wrapper-7 {
+  top: 0;
+  position: absolute;
+  left: 0;
+  font-weight: 500;
+  color: #272042;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.katalog .menu-2 {
+  width: 297px;
+  height: 182px;
+  left: 622px;
+  position: absolute;
+  top: 0;
+}
+
+.katalog .text-wrapper-8 {
+  position: absolute;
+  width: 287px;
+  top: 85px;
+  left: 0;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.katalog .menu-3 {
+  width: 295px;
+  height: 145px;
+  left: 940px;
+  position: absolute;
+  top: 0;
+}
+
+.katalog .line {
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  top: -1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.katalog .nav-bar {
+  position: absolute;
+  width: 1240px;
+  height: 50px;
+  top: 50px;
+  left: 100px;
+}
+
+.katalog .logo-2 {
+  width: 368px;
+  height: 35px;
+  top: 7px;
+  position: absolute;
+  left: 0;
+}
+
+.katalog .logo-linda {
+  position: absolute;
+  top: 0;
+  left: 62px;
+  font-weight: 500;
+  color: #272042;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.katalog .text-wrapper-13 {
+  top: 3px;
+  position: absolute;
+  left: 0;
+  font-weight: 500;
+  color: #272042;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.katalog .group {
+  position: absolute;
+  width: 485px;
+  height: 27px;
+  top: 13px;
+  left: 541px;
+}
+
+.katalog ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 72px;
+  position: absolute;
+}
+
+.katalog li {
+  float: left;
+}
+
+.katalog li a {
+  color: #8B8BA5;
+  text-align: center;
+  text-decoration: none;
+}
+
+.katalog li a:hover:not(.active) {
+  color: #FBE0DC;
+}
+
+.katalog .active {
+  color: #272042;
+}
+
+.katalog li a:hover, li a.active {
+  color: #FBE0DC;
+}
+
+.katalog .text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-weight: 500;
+  color: #8b8ba5;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.katalog .text-wrapper-15 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-weight: 700;
+  color: #272042;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* Content Katalog */
+.katalog .banner {
+  position: absolute;
+  width: 1262px;
+  height: 612px;
+  top: 172px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.katalog .text-wrapper-katalog {
+  position: absolute;
+  font-weight: 700;
+  color: #272042;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 70px;
+  white-space: nowrap;
+}
+
+.katalog .foto-makanan-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: absolute;
+  top: 100px;
+}
+
+.katalog .makanan {
+  position: relative;
+  width: 406.51px;
+  height: 263px;
+  border-radius: 20px;
+}
+
+.katalog .text-wrapper-24 {
+  position: absolute;
+  font-weight: 700;
+  color: #272042;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 70px;
+  white-space: nowrap;
+  padding-top: 20px;
+}
+
+.katalog .text-wrapper-25 {
+  position: absolute;
+  width: 400px;
+  top: 320px;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 34px;
+  padding-top: 10px;
+}
+
+.button {
+  background-color: #F7C531;
+  color: #272042;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  margin: 4px 0px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px 30px 15px 15px;
+}
+
+.button:hover {
+  background-color: #D6AC25;
+}
+
+.button:active {
+  background-color: #AA8E1C;
+}
+
+.katalog .frame-3 {
+  position: absolute;
+  top: 460px;
+  padding-top: 10px;
+}
+
+.katalog .overlap {
+  position: absolute;
+  width: 600px;
+  height: 985px;
+  top: 950px;
+  left: 224px;
+}
+
+.katalog .cemilan-viral {
+  position: absolute;
+  width: 954px;
+  height: 985px;
+  top: 0;
+  left: 0;
+}
+
+.katalog .text-wrapper-10 {
+  position: absolute;
+  width: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 400;
+  color: #272042;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.katalog .mid-button {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 160px;
+}
+
+.katalog .katalog-minuman {
+  position: absolute;
+  width: 1262px;
+  height: 612px;
+  top: 1250px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.katalog .katalog-makanan {
+  position: absolute;
+  width: 1262px;
+  height: 612px;
+  top: 3150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.katalog .text-wrapper-minuman, .katalog .text-wrapper-makanan {
+  position: absolute;
+  font-weight: 700;
+  color: #272042;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 70px;
+  white-space: nowrap;
+}
+
+.katalog .foto-katalog-minuman, .katalog .foto-katalog-makanan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  position: absolute;
+  top: 100px;
+}
+
+.katalog .foto-katalog-minuman-2, .katalog .foto-katalog-makanan-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  position: absolute;
+  top: 680px;
+}
+
+.katalog .foto-katalog-minuman-3, .katalog .foto-katalog-makanan-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  position: absolute;
+  top: 1260px;
+}
+  
+.katalog .list-minuman, .katalog .list-makanan {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.katalog .judul-minuman, .katalog .judul-makanan {
+  position: absolute;
+  font-weight: 700;
+  color: #272042;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 70px;
+  white-space: nowrap;
+  padding-top: 20px;
+}
+
+.katalog .deskripsi-minuman, .katalog .deskripsi-makanan {
+  position: absolute;
+  width: 270px;
+  top: 320px;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+.katalog .detail-minuman, .katalog .detail-makanan {
+  position: absolute;
+  top: 460px;
+}
