@@ -1,0 +1,650 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.beranda {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.beranda .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 3200px;
+  position: relative;
+}
+
+.beranda .footer {
+  position: absolute;
+  width: 1440px;
+  height: 252px;
+  top: 2900px;
+  left: 0;
+}
+
+.beranda .footer-2 {
+  position: absolute;
+  width: 1227px;
+  height: 182px;
+  top: 70px;
+  left: 113px;
+}
+
+.beranda .menu {
+  width: 297px;
+  height: 182px;
+  left: 304px;
+  position: absolute;
+  top: 0;
+}
+
+.beranda .text-wrapper {
+  position: absolute;
+  width: 287px;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  color: #272042;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.beranda .text-wrapper-2 {
+  position: absolute;
+  width: 287px;
+  top: 48px;
+  left: 0;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.beranda .text-wrapper-3 {
+  position: absolute;
+  width: 287px;
+  top: 122px;
+  left: 0;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.beranda .text-wrapper-4 {
+  position: absolute;
+  width: 287px;
+  top: 85px;
+  left: 0;
+  font-weight: 400;
+  color: #272042;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.beranda .text-wrapper-5 {
+  position: absolute;
+  width: 287px;
+  top: 159px;
+  left: 0;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.beranda .logo {
+  width: 133px;
+  height: 145px;
+  top: 14px;
+  position: absolute;
+  left: 0;
+}
+
+.beranda .text-wrapper-6 {
+  position: absolute;
+  width: 129px;
+  top: 40px;
+  left: 0;
+  font-weight: 500;
+  color: #272042;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.beranda .text-wrapper-7 {
+  top: 0;
+  position: absolute;
+  left: 0;
+  font-weight: 500;
+  color: #272042;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.beranda .menu-2 {
+  width: 297px;
+  height: 182px;
+  left: 622px;
+  position: absolute;
+  top: 0;
+}
+
+.beranda .text-wrapper-8 {
+  position: absolute;
+  width: 287px;
+  top: 85px;
+  left: 0;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.beranda .menu-3 {
+  width: 295px;
+  height: 145px;
+  left: 940px;
+  position: absolute;
+  top: 0;
+}
+
+.beranda .nav-bar {
+  position: absolute;
+  width: 1240px;
+  height: 50px;
+  top: 50px;
+  left: 100px;
+}
+
+.beranda .logo-2 {
+  width: 368px;
+  height: 35px;
+  top: 7px;
+  position: absolute;
+  left: 0;
+}
+
+.beranda .logo-linda {
+  position: absolute;
+  top: 0;
+  left: 62px;
+  font-weight: 500;
+  color: #272042;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.beranda .text-wrapper-13 {
+  top: 3px;
+  position: absolute;
+  left: 0;
+  font-weight: 500;
+  color: #272042;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.beranda .group {
+  position: absolute;
+  width: 485px;
+  height: 27px;
+  top: 13px;
+  left: 541px;
+}
+
+.beranda ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 72px;
+  position: absolute;
+}
+
+.beranda li {
+  float: left;
+}
+
+.beranda li a {
+  color: #8B8BA5;
+  text-align: center;
+  text-decoration: none;
+}
+
+.beranda li a:hover:not(.active) {
+  color: #FBE0DC;
+}
+
+.beranda .active {
+  color: #272042;
+}
+
+.beranda li a:hover, li a.active {
+  color: #FBE0DC;
+}
+
+.beranda .text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-weight: 500;
+  color: #8b8ba5;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.beranda .text-wrapper-15 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-weight: 700;
+  color: #272042;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/*
+/* Content Beranda */
+.beranda .introduction {
+  position: absolute;
+  width: 1225px;
+  height: 405px;
+  top: 200px;
+  left: 89px;
+}
+
+.beranda .overlap-5 {
+  position: absolute;
+  width: 600px;
+  height: 140px;
+  left: 698px;
+}
+
+.beranda .eat-what-you-cook {
+  position: absolute;
+  font-weight: 700;
+  color: #272042;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: 60px;
+  top: -10px;
+}
+
+.beranda .when-you-eat {
+  position: absolute;
+  width: 550px;
+  top: 150px;
+  left: 699px;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 34px;
+}
+
+.beranda .video {
+  position: absolute;
+  width: 600px;
+  height: 350px;
+  background-size: 100% 100%;
+}
+
+.beranda .img-eat {
+  position: absolute;
+  width: 600px;
+  height: 350px;
+  background-size: 100% 100%;
+  border-radius: 20px;
+}
+
+.beranda .banner {
+  position: absolute;
+  width: 1260px;
+  height: 382px;
+  top: 681px;
+  left: 90px;
+}
+
+.beranda .frame-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+
+.beranda .text-wrapper-28 {
+  top: 13px;
+  left: 54px;
+  position: absolute;
+  font-family: "Quicksand-Medium", Helvetica;
+  font-weight: 500;
+  color: #272042;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.beranda .foto-makanan {
+  display: flex;
+  width: 1260px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.beranda .pic-makanan {
+  position: relative;
+  width: 400px;
+  height: 263px;
+  border-radius: 20px;
+}
+
+.beranda .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button {
+  background-color: #F7C531;
+  color: #272042;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  margin: 4px 0px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px 30px 15px 15px;
+}
+
+.button:hover {
+  background-color: #D6AC25;
+}
+
+.button:active {
+  background-color: #AA8E1C;
+}
+
+.beranda .katalog-menu {
+  position: absolute;
+  width: 1260px;
+  height: 900px;
+  top: 1100px;
+  left: 90px;
+}
+
+.beranda .katalog-menu-2 {
+  position: relative;
+  height: 834px;
+}
+
+.beranda .frame-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 100px;
+  position: absolute;
+  top: 130px;
+  left: 0;
+}
+
+.beranda .minuman {
+  position: relative;
+  width: 585.32px;
+  height: 612px;
+}
+
+.beranda .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 550px;
+}
+
+.beranda .rectangle-5 {
+  position: relative;
+  width: 210px;
+  height: 50px;
+}
+
+.beranda .text-wrapper-23 {
+  top: 12px;
+  left: 43px;
+  position: absolute;
+  font-family: "Quicksand-Medium", Helvetica;
+  font-weight: 500;
+  color: #272042;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.beranda .text-wrapper-24 {
+  position: absolute;
+  top: 382px;
+  font-weight: 700;
+  color: #272042;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 70px;
+  white-space: nowrap;
+}
+
+.beranda .text-wrapper-25 {
+  position: absolute;
+  width: 550px;
+  top: 430px;
+  font-weight: 400;
+  color: #8b8ba5;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 34px;
+}
+
+.beranda .pic-3 {
+  position: absolute;
+  width: 581px;
+  height: 373px;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+}
+
+.beranda .makanan-ringan {
+  position: relative;
+  width: 585.32px;
+  height: 612px;
+  margin-right: -4px;
+}
+
+.beranda .rectangle-6 {
+  width: 241px;
+  position: relative;
+  height: 50px;
+}
+
+.beranda .text-wrapper-26 {
+  position: absolute;
+  top: 12px;
+  left: 26px;
+  font-family: "Quicksand-Medium", Helvetica;
+  font-weight: 500;
+  color: #272042;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.beranda .frame-4 {
+  position: absolute;
+  width: 329px;
+  height: 90px;
+}
+
+.beranda .text-wrapper-27 {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  font-weight: 700;
+  color: #272042;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 70px;
+  white-space: nowrap;
+}
+
+.beranda .slogan {
+  position: absolute;
+  width: 1263px;
+  height: 212px;
+  top: 2000px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.beranda .slogan-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 49px;
+  position: relative;
+}
+
+.beranda .icon-slogan {
+  width: 168.51px;
+  position: relative;
+  height: 212px;
+}
+
+.beranda .text-wrapper-21 {
+  position: absolute;
+  width: 160px;
+  top: 178px;
+  left: 4px;
+  font-weight: 700;
+  color: #272042;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.beranda .pic-slogan {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.beranda .form-testi {
+  position: absolute;
+  top: 2300px;
+  left: 50%;
+  margin: 10px;
+}
+
+.beranda .p {
+  font-weight: 700;
+  color: #272042;
+  width: 600px;
+  top: 0;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.beranda .input-testi {
+  left: 0%;
+  transform: translateX(-100%);
+}
+
+.div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 25px;
+}
+
+.text-wrapper-9 {
+  margin-bottom: 5px;
+}
+
+.beranda .rectangle {
+  width: 600px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.beranda .rectangle-testi {
+  width: 600px;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.beranda .testimoni-anda textarea {
+  width: 300px;
+}
+
+.beranda .img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.beranda .img-testi{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  padding: 10px;
+  background-size: 100% 100%;
+  border-radius: 20px;
+}
