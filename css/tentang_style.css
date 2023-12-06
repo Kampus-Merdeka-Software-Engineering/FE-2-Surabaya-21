@@ -9,17 +9,17 @@ body {
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
 }
 
-.tentang .div {
+.div {
   background-color: #ffffff;
   width: 1440px;
   height: 3300px;
   position: relative;
 }
 
-.tentang .footer {
+.footer {
   position: absolute;
   width: 1440px;
   height: 252px;
@@ -27,7 +27,7 @@ body {
   left: 0;
 }
 
-.tentang .footer-2 {
+.footer-2 {
   position: absolute;
   width: 1227px;
   height: 182px;
@@ -35,7 +35,7 @@ body {
   left: 113px;
 }
 
-.tentang .menu {
+.menu {
   width: 297px;
   height: 182px;
   left: 304px;
@@ -43,7 +43,7 @@ body {
   top: 0;
 }
 
-.tentang .text-wrapper {
+.text-wrapper {
   position: absolute;
   width: 287px;
   top: 0;
@@ -55,7 +55,7 @@ body {
   line-height: normal;
 }
 
-.tentang .text-wrapper-2 {
+.text-wrapper-2 {
   position: absolute;
   width: 287px;
   top: 48px;
@@ -67,7 +67,7 @@ body {
   line-height: normal;
 }
 
-.tentang .text-wrapper-3 {
+.text-wrapper-3 {
   position: absolute;
   width: 287px;
   top: 122px;
@@ -79,7 +79,7 @@ body {
   line-height: normal;
 }
 
-.tentang .text-wrapper-4 {
+.text-wrapper-4 {
   position: absolute;
   width: 287px;
   top: 85px;
@@ -92,7 +92,7 @@ body {
   text-decoration: underline;
 }
 
-.tentang .text-wrapper-5 {
+.text-wrapper-5 {
   position: absolute;
   width: 287px;
   top: 159px;
@@ -104,7 +104,7 @@ body {
   line-height: normal;
 }
 
-.tentang .logo {
+.logo {
   width: 133px;
   height: 145px;
   top: 14px;
@@ -112,7 +112,7 @@ body {
   left: 0;
 }
 
-.tentang .text-wrapper-6 {
+.text-wrapper-6 {
   position: absolute;
   width: 129px;
   top: 40px;
@@ -124,7 +124,7 @@ body {
   line-height: normal;
 }
 
-.tentang .text-wrapper-7 {
+.text-wrapper-7 {
   top: 0;
   position: absolute;
   left: 0;
@@ -136,7 +136,7 @@ body {
   white-space: nowrap;
 }
 
-.tentang .menu-2 {
+.menu-2 {
   width: 297px;
   height: 182px;
   left: 622px;
@@ -144,7 +144,7 @@ body {
   top: 0;
 }
 
-.tentang .text-wrapper-8 {
+.text-wrapper-8 {
   position: absolute;
   width: 287px;
   top: 85px;
@@ -156,7 +156,7 @@ body {
   line-height: normal;
 }
 
-.tentang .menu-3 {
+.menu-3 {
   width: 295px;
   height: 145px;
   left: 940px;
@@ -164,7 +164,7 @@ body {
   top: 0;
 }
 
-.tentang .line {
+.line {
   position: absolute;
   width: 1440px;
   height: 1px;
@@ -173,14 +173,14 @@ body {
   object-fit: cover;
 }
 
-.tentang .slogan {
+.slogan {
   position: absolute;
   top: 1200px;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.tentang .slogan-2 {
+.slogan-2 {
   display: inline-flex;
   align-items: flex-start;
   gap: 49px;
@@ -188,13 +188,13 @@ body {
   top: 100px;
 }
 
-.tentang .icon {
+.icon {
   width: 168.51px;
   position: relative;
   height: 212px;
 }
 
-.tentang .text-wrapper-9 {
+.text-wrapper-9 {
   position: absolute;
   width: 160px;
   top: 178px;
@@ -207,7 +207,7 @@ body {
   line-height: normal;
 }
 
-.tentang .pic {
+.pic {
   position: absolute;
   width: 167px;
   height: 155px;
@@ -215,7 +215,7 @@ body {
   left: 0;
 }
 
-.tentang .text-wrapper-10 {
+.text-wrapper-10 {
   width: 185px;
   left: 0;
   position: absolute;
@@ -228,7 +228,7 @@ body {
   line-height: normal;
 }
 
-.tentang .img {
+.img {
   position: absolute;
   width: 167px;
   height: 155px;
@@ -236,20 +236,20 @@ body {
   left: 9px;
 }
 
-.tentang .tentang-kami {
+.tentang-kami {
   position: absolute;
   top: 184px;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.tentang .tentang-kami-2 {
+.tentang-kami-2 {
   position: relative;
   width: 1264px;
   height: 876px;
 }
 
-.tentang .foto-makanan {
+.foto-makanan {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -258,14 +258,14 @@ body {
   top: 600px;
 }
 
-.tentang .pic-makanan {
+.pic-makanan {
   position: relative;
   width: 406.51px;
   height: 263px;
   border-radius: 20px;
 }
 
-.tentang .dimulai-pada-tahun {
+.dimulai-pada-tahun {
   position: absolute;
   width: 1073px;
   top: 97px;
@@ -278,7 +278,7 @@ body {
   line-height: 50px;
 }
 
-.tentang .text-wrapper-11 {
+.text-wrapper-11 {
   position: absolute;
   top: 0;
   left: 463px;
@@ -290,7 +290,7 @@ body {
   white-space: nowrap;
 }
 
-.tentang .nav-bar {
+.nav-bar {
   position: absolute;
   width: 1240px;
   height: 50px;
@@ -298,7 +298,7 @@ body {
   left: 100px;
 }
 
-.tentang .logo-2 {
+.logo-2 {
   width: 368px;
   height: 35px;
   top: 7px;
@@ -306,7 +306,7 @@ body {
   left: 0;
 }
 
-.tentang .text-wrapper-12 {
+.text-wrapper-12 {
   position: absolute;
   top: 0;
   left: 62px;
@@ -317,7 +317,7 @@ body {
   line-height: normal;
 }
 
-.tentang .text-wrapper-13 {
+.text-wrapper-13 {
   top: 3px;
   position: absolute;
   left: 0;
@@ -329,7 +329,7 @@ body {
   white-space: nowrap;
 }
 
-.tentang .group {
+.group {
   position: absolute;
   width: 485px;
   height: 27px;
@@ -337,7 +337,7 @@ body {
   left: 541px;
 }
 
-.tentang .rectangle {
+.rectangle {
   width: 53px;
   height: 4px;
   top: 23px;
@@ -347,7 +347,7 @@ body {
   border-radius: 100px;
 }
 
-.tentang ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -359,17 +359,17 @@ body {
   margin-left: 100px;
 }
 
-.tentang li {
+li {
   float: left;
 }
 
-.tentang li a {
+li a {
   color: #8B8BA5;
   text-align: center;
   text-decoration: none;
 }
 
-.tentang li a:hover:not(.active) {
+li a:hover:not(.active) {
   color: #FBE0DC;
 }
 
@@ -377,11 +377,11 @@ body {
   color: #272042;
 }
 
-.tentang li a:hover, li a.active {
+li a:hover, li a.active {
   color: #FBE0DC;
 }
 
-.tentang .text-wrapper-14 {
+.text-wrapper-14 {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -393,7 +393,7 @@ body {
   line-height: normal;
 }
 
-.tentang .text-wrapper-15 {
+.text-wrapper-15 {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -405,7 +405,7 @@ body {
   line-height: normal;
 }
 
-.tentang .btn {
+.btn {
   position: absolute;
   width: 157px;
   height: 50px;
@@ -415,7 +415,7 @@ body {
   box-sizing: border-box;
 }
 
-.tentang .overlap-group {
+.overlap-group {
   position: relative;
   width: 155px;
   height: 50px;
@@ -423,7 +423,7 @@ body {
   background-size: 100% 100%;
 }
 
-.tentang .text-wrapper-16 {
+.text-wrapper-16 {
   position: absolute;
   top: 13px;
   left: 26px;
@@ -435,7 +435,7 @@ body {
   line-height: normal;
 }
 
-.tentang .dibalik-LSP {
+.dibalik-LSP {
   position: absolute;
   width: 1225px;
   height: 405px;
@@ -444,7 +444,7 @@ body {
   transform: rotate(180deg);
 }
 
-.tentang .overlap {
+.overlap {
   position: absolute;
   width: 424px;
   height: 140px;
@@ -452,7 +452,7 @@ body {
   left: 797px;
 }
 
-.tentang .rectangle-2 {
+.rectangle-2 {
   width: 212px;
   height: 8px;
   top: 14px;
@@ -462,7 +462,7 @@ body {
   border-radius: 100px;
 }
 
-.tentang .rectangle-3 {
+.rectangle-3 {
   width: 77px;
   height: 8px;
   top: 84px;
@@ -473,7 +473,7 @@ body {
   border-radius: 100px;
 }
 
-.tentang .eat-what-you-cook {
+.eat-what-you-cook {
   position: absolute;
   top: 0;
   left: 0;
@@ -485,7 +485,7 @@ body {
   line-height: 70px;
 }
 
-.tentang .when-you-eat {
+.when-you-eat {
   position: absolute;
   width: 522px;
   top: 10px;
@@ -498,7 +498,7 @@ body {
   line-height: 34px;
 }
 
-.tentang .video {
+.video {
   position: absolute;
   width: 626px;
   height: 400px;
@@ -509,7 +509,7 @@ body {
   border-radius: 20px;
 }
 
-.tentang .list-anggota {
+.list-anggota {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -519,7 +519,7 @@ body {
   left: 90px;
 }
 
-.tentang .anggota {
+.anggota {
   display: flex;
   width: 1260px;
   align-items: center;
@@ -529,13 +529,13 @@ body {
   flex: 0 0 auto;
 }
 
-.tentang .orang {
+.orang {
   position: relative;
   width: 279px;
   height: 334px;
 }
 
-.tentang .deskripsi {
+.deskripsi {
   position: absolute;
   width: 190px;
   height: 70px;
@@ -543,7 +543,7 @@ body {
   left: 40px;
 }
 
-.tentang .text-wrapper-17 {
+.text-wrapper-17 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -557,16 +557,22 @@ body {
   white-space: nowrap;
 }
 
-.tentang .gambar {
+.gambar {
   position: relative;
   width: 265px;
   height: 279px;
 }
 
-.tentang .group-2 {
+.group-2 {
   position: absolute;
   width: 265px;
   height: 279px;
   top: 1px;
   left: 0;
+}
+
+@media only screen and (max-width: 620px) {
+  .tentang {
+    width: 100%;
+  }
 }
