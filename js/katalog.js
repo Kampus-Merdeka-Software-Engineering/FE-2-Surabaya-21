@@ -8,7 +8,7 @@ function scrollToMakananRingan() {
 
 async function fetchDataMinuman() {
     try {
-        const response = await fetch('https://mocki.io/v1/e49c52a2-5a6d-45af-b017-75a15a7832e5');
+        const response = await fetch('https://mocki.io/v1/5d2f5b93-2d71-4149-b5ca-ad1fc4456e2d');
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -26,7 +26,7 @@ async function fetchDataMinuman() {
 
 async function fetchDataMakanan() {
     try {
-        const response = await fetch('https://mocki.io/v1/e49c52a2-5a6d-45af-b017-75a15a7832e5');
+        const response = await fetch('https://mocki.io/v1/5d2f5b93-2d71-4149-b5ca-ad1fc4456e2d');
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -43,11 +43,9 @@ async function fetchDataMakanan() {
 }
 
 function displayDataMinuman(data) {
-    // const data = dataAll.filter(item => item.id >= 16 && item.id <= 30);
     let fotoKatalogMinuman = document.getElementById('jsonDataListMinuman');
     let jsonNumber = 1;
 
-    // Check if there is data
     if (!data || data.length === 0) {
       console.warn('No data to display.');
       return;
@@ -60,7 +58,7 @@ function displayDataMinuman(data) {
 
         const img = document.createElement('img');
         img.className = 'list-minuman';
-        img.src = 'img/makanan-1.png'; // You should replace this with the actual image URL from your JSON data
+        img.src = item.img; // You should replace this with the actual image URL from your JSON data
 
         const judulMinuman = document.createElement('div');
         judulMinuman.className = 'judul-minuman';
@@ -75,7 +73,12 @@ function displayDataMinuman(data) {
 
         const button = document.createElement('button');
         button.className = 'button';
+        button.id = 'openModalBtn';
         button.textContent = 'Lihat Detail';
+        button.onclick = function() {
+            const formattedHarga = item.harga.toLocaleString('id-ID');
+            openModal(item.nama, item.deskripsi, 'Rp'+formattedHarga, item.type);
+        };
 
         // Append elements to the menuMinuman
         menuMinuman.appendChild(img);
@@ -96,11 +99,9 @@ function displayDataMinuman(data) {
 }
 
 function displayDataMakanan(data) {
-    // const data = dataAll.filter(item => item.id >= 1 && item.id <= 15);
     let fotoKatalogMakanan = document.getElementById('jsonDataListMakanan');
     let jsonNumber = 1;
 
-    // Check if there is data
     if (!data || data.length === 0) {
       console.warn('No data to display.');
       return;
@@ -113,7 +114,7 @@ function displayDataMakanan(data) {
 
         const img = document.createElement('img');
         img.className = 'list-makanan';
-        img.src = 'img/makanan-1.png'; // You should replace this with the actual image URL from your JSON data
+        img.src = item.img;
 
         const judulMakanan = document.createElement('div');
         judulMakanan.className = 'judul-makanan';
@@ -128,7 +129,14 @@ function displayDataMakanan(data) {
 
         const button = document.createElement('button');
         button.className = 'button';
+        button.id = 'openModalBtn';
         button.textContent = 'Lihat Detail';
+        button.onclick = function() {
+            const formattedHarga = item.harga.toLocaleString('id-ID');
+            openModal(item.nama, item.deskripsi, 'Rp'+formattedHarga, item.type);
+        };
+          
+
 
         // Append elements to the menuMakanan
         menuMakanan.appendChild(img);

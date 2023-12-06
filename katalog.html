@@ -33,7 +33,7 @@
               <div class="text-wrapper-24">Chitato Okonomiyaki</div>
               <p class="text-wrapper-25"> Chitato Okonomiyaki memberikan perpaduan renyahnya keripik kentang dan saus Okonomiyaki yang kaya rasa.</p>
               <div class="frame-3">
-                <button class="button">Lihat Detail</button>
+                <button class="button" id="openModalBtn" onclick="openModal('Chitato Okonomiyaki', 'Chitato Okonomiyaki memberikan perpaduan renyahnya keripik kentang dan saus Okonomiyaki yang kaya rasa.', 'Rp20.000', 'Makanan Ringan')">Lihat Detail</button>
               </div>
             </div> 
 
@@ -42,7 +42,7 @@
               <div class="text-wrapper-24">Basreng Daun Jeruk</div>
               <p class="text-wrapper-25">  Camilan khas bakso goreng dengan daun jeruk yang memberikan sentuhan aroma segar dan citarasa lezat.</p>
               <div class="frame-3">
-                <button class="button">Lihat Detail</button>
+                <button class="button" id="openModalBtn" onclick="openModal('Basreng Daun Jeruk', 'Camilan khas bakso goreng dengan daun jeruk yang memberikan sentuhan aroma segar dan citarasa lezat.', 'Rp15.000', 'Makanan Ringan')">Lihat Detail</button>
               </div>
             </div>
             
@@ -51,7 +51,7 @@
               <div class="text-wrapper-24">Teh Tarik Boba</div>
               <p class="text-wrapper-25"> Teh tarik klasik dengan boba chewy yang menyajikan sensansi unik minum dan makan secara sekaligus. </p>
               <div class="frame-3">
-                <button class="button">Lihat Detail</button>
+                <button class="button" id="openModalBtn" onclick="openModal('Teh Tarik Boba', 'Teh tarik klasik dengan boba chewy yang menyajikan sensansi unik minum dan makan secara sekaligus.', 'Rp12.000', 'Minuman')">Lihat Detail</button>
               </div>
             </div>
           </div>
@@ -109,11 +109,19 @@
               <p class="text-wrapper-3">(021)-12345678</p>
               <div class="text-wrapper-8">support@lindassp.co.id</div>
             </div>
+
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modalContent"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <script src="./js/katalog.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
