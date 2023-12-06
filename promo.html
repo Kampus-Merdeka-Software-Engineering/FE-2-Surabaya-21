@@ -19,7 +19,7 @@
                 <li class="text-wrapper-14"><a href="./katalog.html">Katalog</a></li>
                 <li class="text-wrapper-15"><a class="active" href="./promo.html">Promo</a></li>
                 <li class="text-wrapper-14"><a href="./tentang.html">Tentang</a></li>
-                <li class="text-wrapper-14"><a href="#">Cari&nbsp;Produk</a></li>
+                <!-- <li class="text-wrapper-14"><a href="#">Cari&nbsp;Produk</a></li> -->
               </ul>
             </div>
           </div>
@@ -29,8 +29,13 @@
           <div class="katalog-menu">
             <div class="frame-2">
               <div class="div-2">
-                <div class="frame-3">
+                <!-- <div class="frame-3">
                   <button class="button">Dapatkan Kode Promo</button>
+                </div> -->
+                <div class="frame-3">
+                  <div id="code-container">
+                    <button class="button" onclick="generateAndCopyCode()">Dapatkan Kode Promo</button>
+                  </div>
                 </div>
                 <div class="trapezoid-container">
                   <div class="trapezoid">
@@ -40,7 +45,9 @@
               </div>
               <div class="div-2">
                 <div class="frame-3">
-                  <button class="button">Dapatkan Kode Promo</button>
+                  <div id="code-container">
+                    <button class="button" onclick="generateAndCopyCode()">Dapatkan Kode Promo</button>
+                  </div>
                 </div>
                 <div class="trapezoid-container">
                   <div class="trapezoid">
@@ -66,7 +73,9 @@
             Minimal pembelian Rp150.000 dan dapatkan hadiah gratis dengan Masukkan Kode Voucher yang ada di bawah ini ya!
           </p>
           <div class="frame">
-              <button class="button">Dapatkan Kode Promo</button>
+            <div id="code-container">
+              <button class="button" onclick="generateAndCopyCode()">Dapatkan Kode Promo</button>
+            </div>
           </div>
         </div>
        
@@ -76,18 +85,19 @@
               <div class="text-wrapper-6">Linda’s Snack Paradise</div>
               <div class="text-wrapper-7">🍟🧋</div>
             </div>
+
             <div class="menu">
               <div class="text-wrapper">Katalog Menu</div>
-              <div class="text-wrapper-2">Minuman</div>
-              <div class="text-wrapper-8">Makanan Ringan</div>
+              <a href="./katalog.html#katalog-minuman" onclick="scrollToMinuman()" class="text-wrapper-2">Minuman</a>
+              <a href="./katalog.html#katalog-makanan" onclick="scrollToMakananRingan()" class="text-wrapper-8">Makanan Ringan</a>
             </div>
             
             <div class="menu-2">
               <div class="text-wrapper">Tentang</div>
-              <div class="text-wrapper-2">Tentang Kami</div>
-              <div class="text-wrapper-8">Temukan pada</div>
-              <div class="text-wrapper-3">Dibalik Linda's Snack Paradise</div>
-              <div class="text-wrapper-5">Tim Inti</div>
+              <a href="./tentang.html#tentang-kami" onclick="scrollToMinuman()" class="text-wrapper-2">Tentang Kami</a>
+              <a href="./tentang.html#slogan" onclick="scrollToMinuman()" class="text-wrapper-8">Temukan pada</a>
+              <a href="./tentang.html#dibalik-LSP" onclick="scrollToMinuman()" class="text-wrapper-3">Dibalik Linda's Snack Paradise</a>
+              <a href="./tentang.html#list-anggota" onclick="scrollToMinuman()" class="text-wrapper-5">Tim Inti</a>
             </div>
             <div class="menu-3">
               <div class="text-wrapper">Hubungi Kami</div>
@@ -97,8 +107,9 @@
             </div>
           </div>
         </div>
-        
       </div>
     </div>
+
+    <script src="./js/promo.js"></script>
   </body>
 </html>

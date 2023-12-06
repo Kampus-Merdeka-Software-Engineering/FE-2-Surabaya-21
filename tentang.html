@@ -20,13 +20,13 @@
                 <li class="text-wrapper-14"><a href="./katalog.html">Katalog</a></li>
                 <li class="text-wrapper-14"><a href="./promo.html">Promo</a></li>
                 <li class="text-wrapper-15"><a class="active" href="./tentang.html">Tentang</a></li>
-                <li class="text-wrapper-14"><a href="#">Cari&nbsp;Produk</a></li>
+                <!-- <li class="text-wrapper-14"><a href="#">Cari&nbsp;Produk</a></li> -->
               </ul>
             </div>
           </div>
         </div>
         
-        <div class="tentang-kami">
+        <div class="tentang-kami" id="tentang-kami">
           <div class="tentang-kami-2">
             <div class="text-wrapper-11">Tentang Kami</div>
             <p class="dimulai-pada-tahun">
@@ -41,7 +41,7 @@
           </div>
         </div>
         
-        <div class="slogan">
+        <div class="slogan" id="slogan">
           <div class="text-wrapper-11">Temukan Pada</div>
           <div class="slogan-2">
             <div class="icon">
@@ -71,7 +71,7 @@
           </div>
         </div>
         
-        <div class="dibalik-LSP">
+        <div class="dibalik-LSP" id="dibalik-LSP">
           <div class="overlap">
 <!--             <div class="rectangle-2"></div>
             <div class="rectangle-3"></div> -->
@@ -83,7 +83,7 @@
           <img class="video" src="https://i.pinimg.com/736x/9f/c8/54/9fc854a879795a7f408868dc08f40e6c.jpg" />
         </div>
         
-        <div class="list-anggota">
+        <div class="list-anggota"  id="list-anggota">
           <div class="anggota">
             <div class="orang">
               <div class="deskripsi"><div class="text-wrapper-17">Yaspa Firdaus</div></div>
@@ -124,19 +124,19 @@
               <div class="text-wrapper-6">Linda’s Snack Paradise</div>
               <div class="text-wrapper-7">🍟🧋</div>
             </div>
-            
+
             <div class="menu">
               <div class="text-wrapper">Katalog Menu</div>
-              <div class="text-wrapper-2">Minuman</div>
-              <div class="text-wrapper-8">Makanan Ringan</div>
+              <a href="./katalog.html#katalog-minuman" onclick="scrollToMinuman()" class="text-wrapper-2">Minuman</a>
+              <a href="./katalog.html#katalog-makanan" onclick="scrollToMakananRingan()" class="text-wrapper-8">Makanan Ringan</a>
             </div>
             
             <div class="menu-2">
               <div class="text-wrapper">Tentang</div>
-              <div class="text-wrapper-2">Tentang Kami</div>
-              <div class="text-wrapper-8">Temukan pada</div>
-              <div class="text-wrapper-3">Dibalik Linda's Snack Paradise</div>
-              <div class="text-wrapper-5">Tim Inti</div>
+              <a href="./tentang.html#tentang-kami" onclick="scrollToMinuman()" class="text-wrapper-2">Tentang Kami</a>
+              <a href="./tentang.html#slogan" onclick="scrollToMinuman()" class="text-wrapper-8">Temukan pada</a>
+              <a href="./tentang.html#dibalik-LSP" onclick="scrollToMinuman()" class="text-wrapper-3">Dibalik Linda's Snack Paradise</a>
+              <a href="./tentang.html#list-anggota" onclick="scrollToMinuman()" class="text-wrapper-5">Tim Inti</a>
             </div>
             <div class="menu-3">
               <div class="text-wrapper">Hubungi Kami</div>
@@ -145,7 +145,6 @@
               <div class="text-wrapper-8">support@lindassp.co.id</div>
             </div>
           </div>
-          <img class="line" src="img/line-1.svg" />
         </div>
       </div>
     </div>
