@@ -108,6 +108,8 @@
     letter-spacing: 0;
     line-height: 70px;
     white-space: nowrap;
+    position: relative;
+    z-index: 1;
 }
 
 .text-wrapper-24 {
@@ -155,6 +157,43 @@
     border-radius: 20px;
 }
 
+.resizable {
+  resize: vertical; 
+  height: 150px;    
+}
+
+.testimonials-section {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.testimonial-item {
+  text-align: center;
+}
+
+.name-item {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.background-container {
+  position: relative;
+}
+
+.background-container::before {
+  content: '';
+  background-image: url('https://static.vecteezy.com/system/resources/previews/008/516/956/original/testimonial-flat-illustrations-concept-vector.jpg');
+  background-size: cover; 
+  background-position: center;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
 @media (max-width: 576px) {
     .eat-what-you-cook {
         font-size: 1.75rem;
@@ -168,7 +207,7 @@
 }
 
 @media (max-width: 1025px) {
-    .img-eat, .img-testi, .pic-slogan, .pic-3, .pic-makanan {
+    .img-eat, .img-testi, .pic-slogan, .pic-3, .pic-makanan, .img-aphosthrope {
         width: auto;
         height: auto;
         border-radius: auto;
@@ -177,7 +216,7 @@
 
 
 @media (max-width: 1366px) {
-  .img-eat, .img-testi, .pic-slogan, .pic-3, .pic-makanan {
+  .img-eat, .img-testi, .pic-slogan, .pic-3, .pic-makanan, .img-aphosthrope {
         width: auto;
         height: auto;
         border-radius: 10px;
