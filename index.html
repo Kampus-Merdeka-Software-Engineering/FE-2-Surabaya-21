@@ -107,35 +107,40 @@
           </div>
         </div>
 
-         <div class="form-testi">
-            <p class="p">Ceritakan tentang pengalaman versimu dengan produk favorit yang pernah kamu beli, yuk!</p>
-            <img class="img-testi" src="https://cdni.iconscout.com/illustration/premium/thumb/customer-review-9746783-7898135.png" />
-            <div class="input-testi">
+        <div class="form-testi">
+          <p class="p">Ceritakan tentang pengalaman versimu dengan produk favorit yang pernah kamu beli, yuk!</p>
+          <img class="img-testi"
+            src="https://cdni.iconscout.com/illustration/premium/thumb/customer-review-9746783-7898135.png" />
+          <div class="input-testi">
+            <form id="formData">
               <div class="div-2">
-                <label for="namaLengkap" class="text-wrapper-9">Nama Lengkap</label>
-                <input type="text" id="namaLengkap" name="namaLengkap" class="rectangle" />
-              </div>
-
-              <div class="div-2">
-                <label for="email" class="text-wrapper-9">Email</label>
-                <input type="email" id="email" name="email" class="rectangle" />
-              </div>
-
-              <div class="div-2">
-                <label for="nomorTelepon" class="text-wrapper-9">Nomor Telepon</label>
-                <input type="tel" id="nomorTelepon" name="nomorTelepon" class="rectangle" />
-              </div>
-
-              <div class="div-2">
-                <label for="testimoni" class="text-wrapper-9">Testimoni Anda</label>
-                <textarea id="testimoni" name="testimoni" class="rectangle-testi"></textarea>
+                <label for="nama" class="text-wrapper-9">Nama:</label>
+                <input type="text" id="nama" name="nama" class="rectangle" required>
               </div>
               
               <div class="div-2">
-                <button type="submit" class="button">&#160;&#160;Kirim&#160;&#160;</button>
+                <label for="email" class="text-wrapper-9">Email:</label>
+                <input type="email" id="email" name="email" class="rectangle" required>
               </div>
-          </div> 
-        </div> 
+              
+              <div class="div-2">
+                <label for="notelp" class="text-wrapper-9">Nomor Telepon:</label>
+                <input type="tel" id="notelp" name="notelp" class="rectangle" required>
+              </div>
+  
+              <div class="div-2">
+                <label for="testimonial" class="text-wrapper-9">Testimonial:</label>
+                <textarea id="testimonial" name="testimonial" class="rectangle" required></textarea>
+              </div>
+              
+              <div class="div-2">
+                <button class="button" type="button" onclick="submitTestimoni()">Kirim Testimoni</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div id="testimonials-container"></div>
            
         <div class="footer">
           <div class="footer-2">
@@ -167,5 +172,7 @@
         </div>
       </div>
     </div>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
