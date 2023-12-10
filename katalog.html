@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katalog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/katalog_style.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg py-5">
+        <div class="container">
+          <a class="navbar-brand logo-linda" href="#"
+            >🍟🧋Linda’s Snack Paradise</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ms-auto align-items-center">
+              <li class="nav-item text-wrapper-15">
+                <a class="nav-link mx-2" href="./index.html"
+                  ><i class="fas fa-plus-circle pe-2"></i>Beranda</a
+                >
+              </li>
+              <li class="nav-item text-wrapper-15">
+                <a class="nav-link mx-2 active" href="./katalog.html"
+                  ><i class="fas fa-bell pe-2"></i>Katalog</a
+                >
+              </li>
+              <li class="nav-item text-wrapper-15">
+                <a class="nav-link mx-2" href="./promo.html"
+                  ><i class="fas fa-heart pe-2"></i>Promo</a
+                >
+              </li>
+              <li class="nav-item text-wrapper-15">
+                <a class="nav-link mx-2" href="./tentang.html"
+                  ><i class="fas fa-heart pe-2"></i>Tentang</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar -->
+
+    <!-- Content -->
+    <div class="container">
+      <div class="row py-md-5 mb-5">
+        <div class="row">
+          <p class="text-wrapper-27 text-center text-md-start">Katalog Menu</p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-md-0 mb-5">
+            <img
+              class="makanan img-fluid"
+              src="https://cdn.discordapp.com/attachments/896935170333081613/1181609595936972842/Chitato.png?ex=6581aeb0&is=656f39b0&hm=50ee65f294558633da9d2fb534b7de02b0252f5f41e318a5093c4103e6095039&"
+            />
+            <p class="text-wrapper-24">Chitato Okonomiyaki</p>
+            <p class="text-wrapper-25">
+              Chitato Okonomiyaki memberikan perpaduan renyahnya keripik kentang
+              dan saus Okonomiyaki yang kaya rasa.
+            </p>
+            <button
+              class="button1"
+              id="openModalBtn"
+              onclick="openModal('Chitato Okonomiyaki', 'Chitato Okonomiyaki memberikan perpaduan renyahnya keripik kentang dan saus Okonomiyaki yang kaya rasa.', 'Rp20.000', 'Makanan Ringan')"
+            >
+              Lihat Detail
+            </button>
+          </div>
+          <div class="col-md-4 mb-md-0 mb-5">
+            <img
+              class="makanan img-fluid"
+              src="https://cdn.discordapp.com/attachments/896935170333081613/1181609595521728643/Basreng.png?ex=6581aeb0&is=656f39b0&hm=045dfca063e93c60dc30025cde9f3924bde8daac53460e8e509bebb281a14dc6&"
+            />
+            <p class="text-wrapper-24">Basreng Daun Jeruk</p>
+            <p class="text-wrapper-25">
+              Camilan khas bakso goreng dengan daun jeruk yang memberikan
+              sentuhan aroma segar dan citarasa lezat.
+            </p>
+            <button
+              class="button1"
+              id="openModalBtn"
+              onclick="openModal('Basreng Daun Jeruk', 'Camilan khas bakso goreng dengan daun jeruk yang memberikan sentuhan aroma segar dan citarasa lezat.', 'Rp15.000', 'Makanan Ringan')"
+            >
+              Lihat Detail
+            </button>
+          </div>
+          <div class="col-md-4 mb-md-0 mb-5">
+            <img
+              class="makanan img-fluid"
+              src="https://cdn.discordapp.com/attachments/896935170333081613/1181609596276703333/Teh_tarik_boba.png?ex=6581aeb0&is=656f39b0&hm=4e0e3356e67ef27177986e96d245e543fa6809c2358b6772fa35506977abe275&"
+            />
+            <p class="text-wrapper-24">Teh Tarik Boba</p>
+            <p class="text-wrapper-25">
+              Teh tarik klasik dengan boba chewy yang menyajikan sensansi unik
+              minum dan makan secara sekaligus.
+            </p>
+            <button
+              class="button1"
+              id="openModalBtn"
+              onclick="openModal('Teh Tarik Boba', 'Teh tarik klasik dengan boba chewy yang menyajikan sensansi unik minum dan makan secara sekaligus.', 'Rp12.000', 'Minuman')"
+            >
+              Lihat Detail
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row py-md-5 mb-5">
+        <div class="row d-flex justify-content-center">
+          <p class="col-md-6 text-wrapper-10">
+            Ada banyak cemilan dan minuman viral yang bisa kamu beli dengan
+            harga terjangkau dan pastinya sesuai dengan selera semua kalangan.
+            Beli banyak lebih murah lagi loh!
+          </p>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-3 d-flex justify-content-center">
+            <button class="button1" onclick="scrollToMinuman()">
+              Lihat Minuman
+            </button>
+          </div>
+          <div class="col-md-3 d-flex justify-content-center">
+            <button class="button1" onclick="scrollToMakananRingan()">
+              Lihat Makanan Ringan
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row py-md-5 mb-5">
+        <div class="row">
+          <p class="text-wrapper-27 text-center text-md-start">Minuman</p>
+        </div>
+        <div class="" id="katalog-minuman">
+          <div class="row mb-5" id="jsonDataListMinuman"></div>
+          <div class="row mb-5" id="jsonDataListMinuman2"></div>
+          <div class="row mb-3" id="jsonDataListMinuman3"></div>
+        </div>
+      </div>
+
+      <div class="row py-md-5 mb-5">
+        <div class="row">
+          <p class="text-wrapper-27 text-center text-md-start">
+            Makanan Ringan
+          </p>
+        </div>
+        <div class="" id="katalog-makanan">
+          <div class="row mb-5" id="jsonDataListMakanan"></div>
+          <div class="row mb-5" id="jsonDataListMakanan2"></div>
+          <div class="row mb-5" id="jsonDataListMakanan3"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Content -->
+
+    <!-- Footer -->
+    <div class="container">
+      <footer>
+        <div class="row py-5">
+          <div class="col-md-3">
+            <p class="text-wrapper-7">🍟🧋</p>
+            <p class="text-wrapper-6">Linda’s Snack Paradise</p>
+          </div>
+          <div class="col-md-3">
+            <p class="text-wrapper">Katalog Menu</p>
+            <div class="mb-3">
+              <a
+                href="#katalog-minuman"
+                onclick="scrollToMinuman()"
+                class="text-wrapper-2"
+                >Minuman</a
+              >
+            </div>
+            <div class="mb-3">
+              <a
+                href="#katalog-makanan"
+                onclick="scrollToMakananRingan()"
+                class="text-wrapper-2"
+                >Makanan Ringan</a
+              >
+            </div>
+          </div>
+          <div class="col-md-3">
+            <p class="text-wrapper">Tentang</p>
+            <div class="mb-3">
+              <a
+                href="./tentang.html#tentang-kami"
+                onclick="scrollToMinuman()"
+                class="text-wrapper-2"
+                >Tentang Kami</a
+              >
+            </div>
+            <div class="mb-3">
+              <a
+                href="./tentang.html#slogan"
+                onclick="scrollToMinuman()"
+                class="text-wrapper-2"
+                >Temukan pada</a
+              >
+            </div>
+            <div class="mb-3">
+              <a
+                href="./tentang.html#dibalik-LSP"
+                onclick="scrollToMinuman()"
+                class="text-wrapper-2"
+                >Dibalik Linda's Snack Paradise</a
+              >
+            </div>
+            <div class="mb-3">
+              <a
+                href="./tentang.html#list-anggota"
+                onclick="scrollToMinuman()"
+                class="text-wrapper-2"
+                >Tim Inti</a
+              >
+            </div>
+          </div>
+          <div class="col-md-3">
+            <p class="text-wrapper">Hubungi Kami</p>
+            <p class="text-wrapper-2">21, Ahmad Yani Season, Surabaya</p>
+            <p class="text-wrapper-2 mb-5">support@lindassp.co.id</p>
+            <p class="text-wrapper-2">(021)-12345678</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Footer -->
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modalContent"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/katalog.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>

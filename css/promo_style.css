@@ -1,0 +1,20 @@
+.img {
+    width: 581px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.pic {
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.text-wrapper-10 {
+    font-weight: 400;
+    color: #272042;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+}

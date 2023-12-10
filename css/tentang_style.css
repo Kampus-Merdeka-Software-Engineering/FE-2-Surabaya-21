@@ -1,0 +1,81 @@
+.text-wrapper-10 {
+    font-weight: 400;
+    color: #272042;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 50px;
+}
+
+.text-wrapper-11 {
+    font-weight: 400;
+    color: #272042;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.text-wrapper-17 {
+    font-weight: 700;
+    color: #272042;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.text-wrapper-21 {
+    font-weight: 700;
+    color: #272042;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pic-makanan {
+    width: 400px;
+    height: 263px;
+    border-radius: 20px;
+}
+
+.pic-slogan {
+    width: 130px;
+    height: 130px;
+}
+
+.img-eat {
+    width: 626px;
+    height: 400px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.group-2 {
+    width: 265px;
+    height: 279px;
+}
+
+@media (max-width: 576px) {
+    .text-wrapper-10 {
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .img-eat {
+        width: 400px;
+        height: 200px;
+        border-radius: 10px;
+    }
+}
+
+
+@media (max-width: 1366px) {
+    .img-eat {
+        width: 500px;
+        height: 300px;
+        border-radius: 10px;
+    }
+}
