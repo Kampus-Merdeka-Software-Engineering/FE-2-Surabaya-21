@@ -1,6 +1,6 @@
-const modal = document.getElementById('myModal');
-const closeBtn = document.querySelector('.close');
-const modalContent = document.getElementById('modalContent');
+const modal = document.getElementById("myModal");
+const closeBtn = document.querySelector(".close");
+const modalContent = document.getElementById("modalContent");
 
 // Function to open the modal with dynamic content
 function openModal(title, description, price, type) {
@@ -11,16 +11,16 @@ function openModal(title, description, price, type) {
     <h3>${price}</h3>
   `;
 
-  modal.style.display = 'block';
+  modal.style.display = "block";
 }
 
 // Function to close the modal
 function closeModal() {
-  modal.style.display = 'none';
+  modal.style.display = "none";
 }
 
-closeBtn.addEventListener('click', closeModal);
-window.addEventListener('click', (event) => {
+closeBtn.addEventListener("click", closeModal);
+window.addEventListener("click", (event) => {
   if (event.target === modal) {
     closeModal();
   }

@@ -1,539 +1,117 @@
-body {
-  font-family: 'Outfit', sans-serif;
-  font-family: 'Quicksand', sans-serif;
-}
-
-.katalog {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  overflow: auto;
-}
-
-.div {
-  background-color: #ffffff;
-  width: 1440px;
-  height: 5300px;
-  position: relative;
-}
-
-.footer {
-  position: absolute;
-  width: 1440px;
-  height: 252px;
-  top: 5000px;
-  left: 0;
-}
-
-.footer-2 {
-  position: absolute;
-  width: 1227px;
-  height: 182px;
-  top: 70px;
-  left: 113px;
-}
-
-.menu {
-  width: 297px;
-  height: 182px;
-  left: 304px;
-  position: absolute;
-  top: 0;
-}
-
-.text-wrapper {
-  position: absolute;
-  width: 287px;
-  top: 0;
-  left: 0;
-  font-weight: 600;
-  color: #272042;
-  font-size: 22px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.text-wrapper-2 {
-  position: absolute;
-  width: 287px;
-  top: 48px;
-  left: 0;
-  font-weight: 400;
-  color: #8b8ba5;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.text-wrapper-3 {
-  position: absolute;
-  width: 287px;
-  top: 122px;
-  left: 0;
-  font-weight: 400;
-  color: #8b8ba5;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.text-wrapper-4 {
-  position: absolute;
-  width: 287px;
-  top: 85px;
-  left: 0;
-  font-weight: 400;
-  color: #272042;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-}
-
-.text-wrapper-5 {
-  position: absolute;
-  width: 287px;
-  top: 159px;
-  left: 0;
-  font-weight: 400;
-  color: #8b8ba5;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.logo {
-  width: 133px;
-  height: 145px;
-  top: 14px;
-  position: absolute;
-  left: 0;
-}
-
-.text-wrapper-6 {
-  position: absolute;
-  width: 129px;
-  top: 40px;
-  left: 0;
-  font-weight: 500;
-  color: #272042;
-  font-size: 25px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.text-wrapper-7 {
-  top: 0;
-  position: absolute;
-  left: 0;
-  font-weight: 500;
-  color: #272042;
-  font-size: 28px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.menu-2 {
-  width: 297px;
-  height: 182px;
-  left: 622px;
-  position: absolute;
-  top: 0;
-}
-
-.text-wrapper-8 {
-  position: absolute;
-  width: 287px;
-  top: 85px;
-  left: 0;
-  font-weight: 400;
-  color: #8b8ba5;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.menu-3 {
-  width: 295px;
-  height: 145px;
-  left: 940px;
-  position: absolute;
-  top: 0;
-}
-
-.line {
-  position: absolute;
-  width: 1440px;
-  height: 1px;
-  top: -1px;
-  left: 0;
-  object-fit: cover;
-}
-
-.nav-bar {
-  position: absolute;
-  width: 1240px;
-  height: 50px;
-  top: 50px;
-  left: 100px;
-}
-
-.logo-2 {
-  width: 368px;
-  height: 35px;
-  top: 7px;
-  position: absolute;
-  left: 0;
-}
-
-.logo-linda {
-  position: absolute;
-  top: 0;
-  left: 62px;
-  font-weight: 500;
-  color: #272042;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.text-wrapper-13 {
-  top: 3px;
-  position: absolute;
-  left: 0;
-  font-weight: 500;
-  color: #272042;
-  font-size: 28px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.group {
-  position: absolute;
-  width: 485px;
-  height: 27px;
-  top: 13px;
-  left: 541px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 72px;
-  position: absolute;
-  margin-left: 100px;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  color: #8B8BA5;
-  text-align: center;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  color: #FBE0DC;
-}
-
-.katalog .active {
-  color: #272042;
-}
-
-li a:hover, li a.active {
-  color: #FBE0DC;
-}
-
-.text-wrapper-14 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-weight: 500;
-  color: #8b8ba5;
-  font-size: 18px;
-  text-align: right;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.text-wrapper-15 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-weight: 700;
-  color: #272042;
-  font-size: 18px;
-  text-align: right;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-/* Content Katalog */
-.banner {
-  position: absolute;
-  width: 1262px;
-  height: 612px;
-  top: 172px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.text-wrapper-katalog {
-  position: absolute;
-  font-weight: 700;
-  color: #272042;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: 70px;
-  white-space: nowrap;
-}
-
-.foto-makanan-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  position: absolute;
-  top: 100px;
-}
-
-.makanan {
-  position: relative;
-  width: 406.51px;
-  height: 263px;
-  border-radius: 20px;
-}
-
-.text-wrapper-24 {
-  position: absolute;
-  font-weight: 700;
-  color: #272042;
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: 70px;
-  white-space: nowrap;
-  padding-top: 20px;
-}
-
-.text-wrapper-25 {
-  position: absolute;
-  width: 400px;
-  top: 320px;
-  font-weight: 400;
-  color: #8b8ba5;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 34px;
-  padding-top: 10px;
-}
-
-.button {
-  background-color: #F7C531;
-  color: #272042;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
-  margin: 4px 0px;
-  cursor: pointer;
-  border: none;
-  border-radius: 30px 30px 15px 15px;
-}
-
-.button:hover {
-  background-color: #D6AC25;
-}
-
-.button:active {
-  background-color: #AA8E1C;
-}
-
-.frame-3 {
-  position: absolute;
-  top: 460px;
-  padding-top: 10px;
-}
-
-.overlap {
-  position: absolute;
-  width: 600px;
-  height: 985px;
-  top: 950px;
-  left: 224px;
-}
-
-.cemilan-viral {
-  position: absolute;
-  width: 954px;
-  height: 985px;
-  top: 0;
-  left: 0;
+.text-wrapper-27 {
+    font-weight: 700;
+    color: #272042;
+    font-size: 2rem;
+    letter-spacing: 0;
+    line-height: 70px;
+    white-space: nowrap;
 }
 
 .text-wrapper-10 {
-  position: absolute;
-  width: 600px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-weight: 400;
-  color: #272042;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 40px;
+    font-weight: 400;
+    color: #272042;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 40px;
 }
 
-.mid-button {
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 160px;
+.makanan {
+    width: 406.51px;
+    height: 263px;
+    border-radius: 20px;
 }
 
-.katalog-minuman {
-  position: absolute;
-  width: 1262px;
-  height: 612px;
-  top: 1250px;
-  left: 50%;
-  transform: translateX(-50%);
+.judul-minuman,
+.judul-makanan {
+    font-weight: 700;
+    color: #272042;
+    font-size: 1.25rem;
+    letter-spacing: 0;
+    line-height: 70px;
+    white-space: nowrap;
 }
 
-.katalog-makanan {
-  position: absolute;
-  width: 1262px;
-  height: 612px;
-  top: 3150px;
-  left: 50%;
-  transform: translateX(-50%);
+.deskripsi-minuman,
+.deskripsi-makanan {
+    height: 100px;
+    font-weight: 400;
+    color: #8b8ba5;
+    font-size: 0.75rem;
+    letter-spacing: 0;
+    line-height: 30px;
 }
 
-.text-wrapper-minuman, .text-wrapper-makanan {
-  position: absolute;
-  font-weight: 700;
-  color: #272042;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: 70px;
-  white-space: nowrap;
+.text-wrapper-24 {
+    font-weight: 700;
+    color: #272042;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 70px;
+    white-space: nowrap;
 }
 
-.foto-katalog-minuman, .foto-katalog-makanan {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 90px;
-  position: absolute;
-  top: 100px;
+.text-wrapper-25 {
+    font-weight: 400;
+    color: #8b8ba5;
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 34px;
 }
 
-.foto-katalog-minuman-2, .foto-katalog-makanan-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 90px;
-  position: absolute;
-  top: 680px;
-}
-
-.foto-katalog-minuman-3, .foto-katalog-makanan-3{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 90px;
-  position: absolute;
-  top: 1260px;
-}
-  
-.list-minuman, .list-makanan {
-  position: relative;
-  width: 250px;
-  height: 250px;
-  border-radius: 20px;
-}
-
-.judul-minuman, .judul-makanan {
-  position: absolute;
-  font-weight: 700;
-  color: #272042;
-  font-size: 25px;
-  letter-spacing: 0;
-  line-height: 70px;
-  white-space: nowrap;
-  padding-top: 20px;
-}
-
-.deskripsi-minuman, .deskripsi-makanan {
-  position: absolute;
-  width: 270px;
-  top: 320px;
-  font-weight: 400;
-  color: #8b8ba5;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 30px;
-  padding-top: 10px;
-}
-
-.detail-minuman, .detail-makanan {
-  position: absolute;
-  top: 460px;
+.pic-3 {
+    width: 581px;
+    height: 373px;
+    border-radius: 20px;
 }
 
 /* Styles for the modal */
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 40%;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
 }
 
 .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+    color: #aaa;
+    float: right;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
-@media only screen and (max-width: 620px) {
-  .katalog {
-    width: 100%;
-  }
+@media (max-width: 1025px) {
+    .makanan {
+        width: auto;
+        height: auto;
+        border-radius: auto;
+    }
+}
+
+@media (max-width: 1366px) {
+    .makanan {
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+    }
 }

@@ -1,0 +1,88 @@
+body {
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 20px;
+}
+
+.logo-linda {
+    font-weight: 500;
+    color: #272042;
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.text-wrapper-27 {
+    font-weight: 700;
+    color: #272042;
+    font-size: 2rem;
+    letter-spacing: 0;
+    line-height: 50px;
+}
+
+.text-wrapper-15 {
+    width: fit-content;
+    font-weight: 700;
+    color: #272042;
+    font-size: 0.9rem;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.text-wrapper {
+    font-weight: 600;
+    color: #272042;
+    font-size: 1.1rem;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.text-wrapper-2 {
+    font-weight: 400;
+    color: #8b8ba5;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+li a {
+    color: #8B8BA5;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: #FBE0DC;
+}
+
+.beranda .active {
+    color: #272042;
+}
+
+li a:hover,
+li a.active {
+    color: #FBE0DC;
+}
+
+.button1 {
+    background-color: #F7C531;
+    color: #272042;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9rem;
+    margin: 4px 0px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px 30px 15px 15px;
+}
+
+.button1:hover {
+    background-color: #D6AC25;
+}
+
+.button1:active {
+    background-color: #AA8E1C;
+}
