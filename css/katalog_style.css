@@ -89,7 +89,7 @@
 .close {
     color: #aaa;
     float: right;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -100,6 +100,19 @@
     cursor: pointer;
 }
 
+.modal-content h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+  
+.modal-content p {
+    font-size: 0.8rem;
+}
+  
+.modal-content h3 {
+    font-size: 1.2rem;
+}
+  
 @media (max-width: 1025px) {
     .makanan {
         width: auto;
