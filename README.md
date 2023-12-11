@@ -1,4 +1,4 @@
-### RevoU - Section Semarang - Team D - Group 8
+### RevoU - Section Surabaya - Team K - Group 21
 
 **Project Member:**
 1. Yaspa Firdaus (Project Leader)
